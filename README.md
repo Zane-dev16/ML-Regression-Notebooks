@@ -4,16 +4,13 @@ This repository houses a collection of Jupyter notebooks breaking down a variety
 
 ## Notebook Categories
 
-The several regression techniques are organized into notebooks in the `notebooks/` directory:
+The following notebooks can be found in the `notebooks/` directory:
 
-- **Simple Linear Regression**
-- **Multiple Linear Regression**
-- **Polynomial Regression**
-- **Ridge Regression**
-- **Lasso Regression**
-- **Elastic Net Regression**
-- **Early Stopping**
-- **Logistic Regression**
+- **linear_regression.ipynb**: Breaking down linear regression
+- **gradient_descents.ipynb**: Batch, Stochastic, Mini-batch gradient descents and exploring learning curves
+- **polynomial_regression.ipynb**: Breaking down polynomial linear regression
+- **regularizing_linear_models.ipynb**: Ridge, Lasso, Elastic Net and Early Stopping techniques
+- **logistic_regression.ipynb**: Breaking down logistic regression
 
 ## Getting Started
 
