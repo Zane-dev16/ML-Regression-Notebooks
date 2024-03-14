@@ -22,3 +22,5 @@ def plot_model(X, y,model_class, polynomial, alphas, **model_kwargs):
         ys = model.predict(xs)
         plt.plot(xs, ys, style, linewidth=2, label=f"alpha = {alpha}")
         plt.axis([0, 3, 0, 3.5])
+    plt.legend(loc='upper left')
+    
